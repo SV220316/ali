@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>DerBrowser</title>
+	<style type="text/css">
+		.top{position: fixed; top:0; left:0; width: 100%; height:30px; border:1px solid black;background-image:linear-gradient(#99bbff, #004de6); padding: 8px 8px;}
+		.bottom{position: fixed; bottom:0; left:0; width: 100%; height:30px; border:1px solid black;background-image:linear-gradient(#99bbff, #004de6); padding: 5px 5px;}
+		#btn{color: white; font-weight:lighter; text-decoration:none; font-size: 25px; margin-left: 60px;}
+		#scr{color: white; font-weight:lighter; text-decoration:none; font-size: 25px; float: right; margin-right: 30px;}
+		#btnn{color: white; font-weight:lighter; text-decoration:none; font-size: 25px; margin-left: 10px;}
+		#btnnn{color: white; font-weight:lighter; text-decoration:none; font-size: 25px; margin-left: 10px;}
+		#btnnnn{color: white; font-weight:lighter; text-decoration:none; font-size: 25px; margin-left: 10px;}
+		#btnnnnn{color: white; font-weight:lighter; text-decoration:none; font-size: 25px; margin-left: 10px;}
+		#HID{position: fixed; top:30px; left: 0; width: 100%; height: 100%;}
+		#homebar{background:rgba(0,0,0,0.4); border: 0.5px solid white; position: fixed; bottom: 3; left: 60px; width: 200px; height: 5px; border-radius: 20px; text-decoration:none; color:transparent;}
+		#homebar:hover{background:black; border: 0.5px solid white; position: fixed; bottom: 3; left: 60px; width: 200px; height: 5px; border-radius: 20px; text-decoration:none; color:transparent;}
+		#homebar:focus{background:black; border: 0.5px solid white; position: fixed; bottom: 3; left: 60px; width: 200px; height: 5px; border-radius: 20px; text-decoration:none; color:transparent;}
+		#search{position: fixed; top:5; color: black; border-radius: 10px; border:1px solid black; font-size: 20px; font-weight: lighter;}
+	</style>
+</head>
+<body>
+	<iframe src="https://bing.com" id="HID"></iframe>
+<div class="top">
+	<input type="text" id="search">
+	<a href="" class="fa fa-search" id="scr"></a>
+</div>
+<div class="bottom">
+	<a class="fa fa-toggle-left" id="btn"></a>
+	<a class="fa fa-toggle-right" id="btnn"></a>
+	<a class="fa fa-share-square-o" id="btnnn"></a>
+	<a class="fa fa-refresh" id="btnnnn"></a>	
+	<a class="fa fa-bookmark" id="btnnnn"></a>
+	<a href="Home.html" id="homebar">.</a>
+</div>
+
+</body>
+</html>
